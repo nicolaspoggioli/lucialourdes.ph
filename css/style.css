@@ -60,7 +60,12 @@ header {
     z-index: 10;
 }
 
+
 /*---barra de navegacion-------------menu---------------*/
+
+header nav div li {
+    margin: 0px 7px 0px 7px
+}
 header nav div ul li a:hover {
     color: #0e674d;
 }
@@ -70,10 +75,14 @@ header nav div ul li a:hover {
 .wsp { 
     margin-left: 20px;}
 
-
+    
+/*-------dropdown servicios----------*/
 .dropdown-menu {
     background-color: #c1a7b3;
     text-align: center;
+}
+.dropdown-menu li a {
+    font-size: 20px;
 }
 
 
