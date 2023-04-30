@@ -45,11 +45,65 @@ li {
 }
 
 li a {
-    color: white;
+    color: white; 
     text-decoration: none;
     font-size: 23px;
+    
 }
 /*--------------------------------------------------HEADER-------------------------------------------------------------*/
+header {
+    border: none;
+    background-color: #c1a7b3;
+    padding: 1px;
+    position: sticky;
+    top: 0%;
+    z-index: 10;
+}
+
+/*---barra de navegacion-------------menu---------------*/
+header nav div ul li a:hover {
+    color: #0e674d;
+}
+.navbar-nav {
+    align-items: center;
+}
+.wsp { 
+    margin-left: 20px;}
+
+
+.dropdown-menu {
+    background-color: #c1a7b3;
+    text-align: center;
+}
+
+
+/*------------------buscador--------------------*/
+
+header nav div form input:hover {
+    background-color: #ecdce9;
+}
+/*---el active no lo toma:----*/
+header nav div form input:active {
+    border: 2px solid #0e674d;
+    border-radius: 5px;}
+
+
+header nav div form button {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 3px 7px 3px 7px;
+    font-size: 17px;
+    background-color: #ecdce9;
+
+}
+
+header nav div form button:hover {
+    background-color: #0e674d;
+    color: white;
+}
+
+/*----------------------------PRE BOOTSTRAP------------------
+
 header {
     border: none;
     background-color: #c1a7b3;
@@ -78,6 +132,24 @@ header nav ul {
 header nav ul li a {
     margin: 5px 15px 5px 20px;
 }
+
+@media screen and (max-width: 865px) {
+    header {
+        position: static;
+    }
+
+    header nav ul {
+        padding: 0%;
+        margin: 0%;
+    }
+    .barra {
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    
+}
+---------------------------------*/
 
 /*-------------------------------------------------------MAIN----------------------------------------------------------*/
 main {background-color: #ecdce9;}
@@ -239,6 +311,7 @@ main {background-color: #ecdce9;}
     bottom: 0;
     text-align: right;
 } 
+
 */
 
 
@@ -344,9 +417,6 @@ main {background-color: #ecdce9;}
     }
 
 
-
-
-
     .mistrabajos__dives {
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: 250px;
@@ -363,22 +433,6 @@ main {background-color: #ecdce9;}
 }
 
 
-@media screen and (max-width: 865px) {
-    header {
-        position: static;
-    }
-
-    header nav ul {
-        padding: 0%;
-        margin: 0%;
-    }
-    .barra {
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    
-}
 
 
 

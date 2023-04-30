@@ -15,21 +15,45 @@
 
 <body>
     <header>
-        <nav>
-            <!--Lista Desordenada-->
-            <!--Enlaces Relativos-->
-            <ul>
-                <li class="gmail"><a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKCCRnGRgjbdndbnBNpRbdGbXVmGqgZpGKjNktlJnRBlbhWGpkXmqzvrjtdNGxsMqtnqxvB" target="_blank"><img src="./img/gmail.png" alt="gmail"></a></li>
-                <div class="barra">
-                    <li><a href="./pages/acercademi.html">Acerca de</a></li>
-                    <li><a href="./pages/mistrabajos.html">Mis Trabajos</a></li>
-                    <li class="Logo"><a href="./index.html"><img src="./img/lulourph.png" alt="Logo"></a></li>
-                    <li><a href="./pages/blogderecetas.html">Blog</a></li>
-                    <li><a href="./pages/servicios.html">Servicios</a></li>
-                    <li><a href="./pages/contacto.html">Contacto</a></li>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <li class="Logo">
+                    <a href="./index.html"><img src="./img/lulourph.png" alt="Logo"></a></li>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-between bd-highlight mb-2">
+                        <li class="nav-item p-2 bd-highlight">
+                            <a href="./pages/acercademi.html">Acerca de Mi</a></li>
+                        <li class="nav-item p-2 bd-highlight">
+                            <a href="./pages/mistrabajos.html">Mis Trabajos</a></li>
+                        <li class="nav-item dropdown p-2 bd-highlight">
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Servicios</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a href="./pages/servicios.html">Foto de Producto</a></li>
+                                <li><a href="./pages/servicios.html">Marketing Digital</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a href="./pages/blogderecetas.html">Blog de Recetas</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./pages/contacto.html">Contacto</a></li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button type="submit">Buscar</button>
+                    </form>
                 </div>
-                <li class=" wsp"><a href="https://web.whatsapp.com/" target="_blank"><img src="./img/whatsapp.png" alt="wsp"></a></li>
-            </ul>
+                <li class=" wsp">
+                    <a href="https://web.whatsapp.com/" target="_blank"><img src="./img/whatsapp.png" alt="wsp"></a></li>
+            </div>
         </nav>
     </header>
     <main>
@@ -41,7 +65,8 @@
             <div class="principal__dives">
                 <div class="principal__dives__potencia">
                     <h2>Potenciá tu Emprendimiento!</h2>
-                    <p>Mediante la fotografía, se puede desarrollar un concepto que se adapte a tu marca y que atraiga a nuevos clientes</p>
+                    <p>Mediante la fotografía, se puede desarrollar un concepto que se adapte a tu marca y que atraiga a
+                        nuevos clientes</p>
                     <p>Es fundamental publicar fotografías de producto originales, para cautivar al público.</p>
                 </div>
                 <div>
@@ -72,9 +97,11 @@
         <div class="footer__redes">
             <h2>Buscame en Redes:</h2>
             <div class="footer__redes__iconos">
-                <a href="https://www.facebook.com/" target="_blank"><img src="./img/facebook.png" alt="Icono Facebook"></a>
-                <a href="https://www.instagram.com/" target="_blank"><img src="./img/instagram.png"                       alt="Icono Instagram"></a>
-                <a href="https://www.behance.net/" target="_blank"><img src="./img/behance.png" alt="Icono Behance"></a> 
+                <a href="https://www.facebook.com/" target="_blank"><img src="./img/facebook.png"
+                        alt="Icono Facebook"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="./img/instagram.png"
+                        alt="Icono Instagram"></a>
+                <a href="https://www.behance.net/" target="_blank"><img src="./img/behance.png" alt="Icono Behance"></a>
             </div>
         </div>
         <div class="footer__dda">
@@ -83,7 +110,9 @@
         </div>
     </footer>
     <!--------BOOTSTRAP--JS-------->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
