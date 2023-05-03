@@ -61,6 +61,7 @@ header {
 }
 
 
+
 /*---barra de navegacion-------------menu---------------*/
 
 header nav div li {
@@ -73,7 +74,14 @@ header nav div ul li a:hover {
     align-items: center;
 }
 .wsp { 
-    margin-left: 20px;}
+    margin-left: 20px;
+
+}
+
+.wsp i{
+    font-size: 35px;
+    color: #0e674d;
+}
 
 /*-------dropdown servicios---*/
 .dropdown-menu {
@@ -90,10 +98,16 @@ header nav div ul li a:hover {
 header nav div form input:hover {
     background-color: #ecdce9;
 }
+
+
 /*---el active no lo toma:----*/
 header nav div form input:active {
     border: 2px solid #0e674d;
     border-radius: 5px;}
+
+.form-control:active {
+    border: 1px solid #0e674d;}
+        
 
 
 header nav div form button {
@@ -404,17 +418,29 @@ main {background-color: #ecdce9;}
     position: sticky;
     }
 
-
-.footer__redes__iconos {padding: 5px;
+.footer__redes h2{
+    text-shadow: #0e674d 2px 2px;
+    margin-bottom: 0%;
 }
-.footer__redes__iconos img {margin: 0px 10px 0px 10px;}
+
+.footer__redes__iconos i {
+    color: #0e674d;
+    font-size: 45px;
+    margin: 0px 15px 0px 15px;}
 
 .footer__dda {display: flex;
+    margin-right: 10px;
     }
+.footer__dda img {
+    height: 20px;
+    width: 20px;
+    margin-right: 3px;
+}
 
 .footer .footer__dda p {    
     color: black;
     font-size: 15px;}
+
 
 
 /*!!! ----------------------------- mediaqueris ---------------------------------!!!*/
@@ -442,15 +468,12 @@ main {background-color: #ecdce9;}
 
 
 
-
-
-
 @media screen and (max-width: 450px) {
     p {font-size: 15px;}
     h1 {font-size: 20px;} 
     h2 {font-size: 20px;}
 
-
+    
     .principal__dives {
         grid-template-columns: 1fr;
     }
@@ -469,5 +492,23 @@ main {background-color: #ecdce9;}
     .mistrabajos__dives__c6 {
         grid-column: span 1;
     }
+
+    .footer__redes__iconos i {
+        font-size: 30px;}
+
+    .footer__logo img {
+        height: 60px;
+        width: 65px;
+    }
+
+    .footer__dda img {
+        height: 10px;
+        width: 10px;
+        margin-right: 2px;
+    }
+    
+    .footer .footer__dda p {    
+        font-size: 10px;}
+
 }
 
