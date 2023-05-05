@@ -13,11 +13,10 @@
 
 h1 {
     color: #0e674d;
-    font-size: 30px;
+    font-size: 38px;
     font-weight: 600;
-    background-color: #ecdce9;
     text-align: center;
-    text-shadow: white 2px 1px;
+    text-shadow: black 1px 1px;
     padding: 20px;
 }
 
@@ -26,13 +25,16 @@ h2 {
     font-size: 30px;
     font-style: italic;
     text-align: center;
+    padding-top: 10px;
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 30px;
     color: #0e674d;
     text-shadow: #c1a7b3 2px 1px;
+    padding-top: 10px;
 }
+
 
 p {
     color: black;
@@ -99,17 +101,6 @@ header nav div form input:hover {
     background-color: #ecdce9;
 }
 
-
-/*---el active no lo toma:----*/
-header nav div form input:active {
-    border: 2px solid #0e674d;
-    border-radius: 5px;}
-
-.form-control:active {
-    border: 1px solid #0e674d;}
-        
-
-
 header nav div form button {
     border: 2px solid black;
     border-radius: 5px;
@@ -174,30 +165,63 @@ header nav ul li a {
 ---------------------------------*/
 
 /*-------------------------------------------------------MAIN----------------------------------------------------------*/
-main {background-color: #ecdce9;}
+main {
+    background-color: #c1a7b3}
 
-.titulo {text-align: center;}
-.titulo p {margin-bottom: 10px;}
+.hero {
+    background-image: url(../img/minibrownies2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    height: 400px;
+    width: 100%;
+}
+
+.hero p { 
+    padding: 45px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.titulo {
+    text-align: center;}
+
+.titulo h1 {
+    background-color: #ecdce9;
+}
+.titulo p {
+    margin-bottom: 10px;}
+
 
 /*--------------------------principal---------------------------*/
-
+.principal {
+    margin-top: 5px; 
+    padding-bottom: 10px;
+}
 .principal__dives {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-auto-rows: 350px;
+    gap: 15px;
 }
 
 .principal__dives div {
     width: 100%;
     height: 100%;
     position: relative;
-    background-color: #ecdce9;
+    border: black 2px ridge;
+
 }
 
 .principal__dives div img {
     width: 100%;
     height: 100%;
-    border: 3px black; border-style: ridge;
+    box-shadow: 2px 5px 5px 4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 5px 5px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 5px 5px 4px rgba(0,0,0,0.75);
 }
 
 .principal__dives div h3 {
@@ -210,41 +234,42 @@ main {background-color: #ecdce9;}
 /*--------------------------potencia-----------------*/
 .principal__dives__potencia {
     text-align: center;
-    border: 3px black; border-style: ridge;
     background-image: url(../img/budinbanana2.JPG);
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
     background-position-y: center;
     grid-row: span 2;
+    box-shadow: 2px 5px 5px 4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 5px 5px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 5px 5px 4px rgba(0,0,0,0.75);
     }
 
 .principal__dives__potencia h2 {
     text-shadow: #0e674d 2px 2px;
 }
 .principal__dives__potencia p {
-    margin: 10% 20% 10% 20%;
+    margin: 15% 20% 10% 20%;
     font-size: 27px;
     text-align: center;
     color: white;
     text-shadow: black 2px 1px;
 
 }
---*/
-/*--------------------------bloglinks-----------------*/
-.principal__dives__bloglinks div {
+
+/*--------------------------bloglink-----------------*/
+.principal__dives__bloglink div {
     width: 100%;
     height: 350px;
     position: relative;
 }
 
-.principal__dives__bloglinks div img {
+.principal__dives__bloglink div img {
     width: 100%;
     height: 100%;
-    border: 3px black; border-style: ridge;
 }
 
-.principal__dives__bloglinks div h3 {
+.principal__dives__bloglink div h3 {
     position: absolute;
     width: 100%;
     text-align: center;
@@ -348,7 +373,7 @@ main {background-color: #ecdce9;}
 
 .blog .blog__recetas div {
     width: 447px; height: 1000px;
-    border: black 1px solid;
+    border: black 2px solid;
     display: flex;
     flex-direction: column;
     align-items: center;
