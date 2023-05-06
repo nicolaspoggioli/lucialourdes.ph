@@ -178,6 +178,10 @@ main {
     width: 100%;
 }
 
+
+.hero h1 {
+    background-color: rgba(255, 228, 196, 0.322);
+}
 .hero p { 
     padding: 45px;
     color: white;
@@ -278,15 +282,20 @@ main {
 
 /*-------------------------------------ACERCA DE----------------------------------------------------------------------*/
 .acercade {
-    display: flex;}
-
+    display: flex;
+    align-items: center;
+    padding-bottom: 25px;
+    background-color: #c1a7b3;
+    
+}
 .acercade p {
-    margin: 10px 45px 10px 60px;}
-
+    margin: 5px 45px 5px 45px;
+}
 .acercade div img {
     height: 300px;
     width: 300px;
-    margin-right: 45px;}
+    padding: 5px;
+}
 
 
 /*------------------------------------MIS TRABAJOS--------------------------------------------------------------------*/
@@ -302,6 +311,7 @@ main {
     position: relative;
     border: black 2px;
     border-style: ridge;
+    margin-bottom: 5px;
 }
 .mistrabajos__dives div h3 {
     position: absolute;
@@ -440,8 +450,13 @@ main {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    position: sticky;
+    border: #0e674d solid 3px;
     }
+
+.footer__logo img {
+    width: 80px;
+    height: 70px;
+}
 
 .footer__redes h2{
     text-shadow: #0e674d 2px 2px;
@@ -484,6 +499,12 @@ main {
     .mistrabajos__dives__c6 {
         grid-column: span 1;
     }
+
+    .acercade {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
 }
 
 @media screen and (max-width: 1067px){
