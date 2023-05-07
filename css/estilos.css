@@ -228,31 +228,34 @@ main .blog .blog__recetas {
       text-align: end; }
 
 main .contacto {
-  background-image: url(../img/minibrownies2.JPG);
-  background-repeat: no-repeat;
+  background-image: url(../img/minibrownies2.jpg);
+  background-size: cover;
   background-position: center;
-  background-size: 80%; }
-  main .contacto .contacto__formulario {
+  background-repeat: no-repeat;
+  background-position-y: center;
+  height: 500px; }
+  main .contacto .contacto__div {
+    font-size: 22px;
+    color: white;
     display: flex;
-    justify-content: center; }
-    main .contacto .contacto__formulario form {
-      display: flex;
-      flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+    main .contacto .contacto__div div {
       width: 50%; }
-      main .contacto .contacto__formulario form div {
-        display: flex;
-        flex-direction: column; }
-        main .contacto .contacto__formulario form div h3 {
-          text-align: start;
-          margin: 10px 0px 15px 0px;
-          color: #0e674d;
-          text-shadow: black 1px 1px; }
-        main .contacto .contacto__formulario form div label {
-          color: white;
-          text-shadow: #0e674d 1px 1px; }
-        main .contacto .contacto__formulario form div input {
-          font-size: 20px;
-          padding: 5px; }
+    main .contacto .contacto__div .botones {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 5px; }
+      main .contacto .contacto__div .botones .btn {
+        background-color: #ecdce9;
+        border: 2px solid black;
+        border-radius: 5px;
+        padding: 3px 7px 3px 7px;
+        font-size: 20px; }
+        main .contacto .contacto__div .botones .btn:hover {
+          background-color: #0e674d; }
 
 .footer {
   background-color: #c1a7b3;

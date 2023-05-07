@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,6 +16,7 @@
     <title>LuciaLourdesPh</title>
     <link rel="icon" href="../img/lulourph.png" type="image/x-icon" />
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -28,9 +30,11 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-between bd-highlight mb-2">
                         <li class="nav-item p-2 bd-highlight">
-                            <a href="../pages/acercademi.html">Acerca de Mi</a></li>
+                            <a href="../pages/acercademi.html">Acerca de Mi</a>
+                        </li>
                         <li class="nav-item p-2 bd-highlight">
-                            <a href="../pages/mistrabajos.html">Mis Trabajos</a></li>
+                            <a href="../pages/mistrabajos.html">Mis Trabajos</a>
+                        </li>
                         <li class="nav-item dropdown p-2 bd-highlight">
                             <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
@@ -45,7 +49,8 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="../pages/contacto.html">Contacto</a></li>
+                            <a href="../pages/contacto.html">Contacto</a>
+                        </li>
                     </ul>
                     <form class="d-flex">
                         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
@@ -63,39 +68,28 @@
             <h1>Contacto</h1>
         </section>
         <section class="contacto">
-                <div class="contacto__formulario"> 
-                    <form action="" method="" enctype="">
-                        <div>
-                            <h3>Registrate:</h3>
-                            <label for="nombre">Nombre:</label>
-                            <input type="text"
-                            name="nombre"
-                            id="nombre">
-                        </div>
-                        <div>
-                            <label for="apellido">Apellido:</label>
-                            <input type="text"
-                            name="apellido"
-                            id="apellido">
-                        </div>
-                        <div>
-                            <label for="email">Email:</label>
-                            <input type="email" name="email" id="email">
-                        </div>
-                        <div>
-                            <label for="Pasword">Contraseña:</label>
-                            <input type="password" name="password" id="password">
-                        </div>
-                        <div class="contacto__formulario__enviar">
-                            <h3>Escribinos tu consulta:</h3>
-                            <textarea name="" id="" cols="30" rows="10"></textarea>
-                            <div>
-                                <input type="submit">
-                                <input type="reset">
-                            </div>
-                        </div>    
-                    </form>
+            <div class="contacto__div">
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">Nombre:</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre">
                 </div>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">Apellido:</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Apellido">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Dejanos tu consulta:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="botones">
+                    <input class="btn" type="reset" value="Resetear">
+                    <input class="btn" type="submit" value="Enviar">
+                </div>
+            </div>
         </section>
     </main>
     <footer class="footer">
@@ -120,4 +114,5 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
