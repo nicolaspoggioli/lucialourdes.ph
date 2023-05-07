@@ -1,0 +1,219 @@
+main {
+    .hero {
+        background-image: url(../img/minibrownies2.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-position-y: center;
+        height: 400px;
+        width: 100%;
+        h1 {
+            background-color: rgba(255, 228, 196, 0.322);
+        }
+        p {
+            padding: 45px;
+            color: $color-cuatro;
+            font-size: 25px;
+            text-align: center;
+        }
+
+    }
+    .principal {
+        margin-top: 5px; 
+        padding-bottom: 10px;
+        .principal__dives {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-auto-rows: 350px;
+            gap: 15px;
+            .principal__dives__potencia {
+                text-align: center;
+                background-image: url(../img/budinbanana2.JPG);
+                background-size:cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-position-y: center;
+                grid-row: span 2;
+                box-shadow: 2px 5px 5px 4px rgba(0,0,0,0.75);
+                -webkit-box-shadow: 2px 5px 5px 4px rgba(0,0,0,0.75);
+                -moz-box-shadow: 2px 5px 5px 4px rgba(0,0,0,0.75);
+                h2 {
+                    text-shadow: $color-tres 2px 2px;
+                }
+                p {
+                    margin: 15% 20% 10% 20%;
+                    font-size: 27px;
+                    text-align: center;
+                    color: $color-cuatro; 
+                    text-shadow: black 2px 1px;
+                }
+            }
+        }
+            div {
+                width: 100%;
+                height: 100%;
+                position: relative;
+                h3 {
+                    position: absolute;
+                    width: 100%;
+                    text-align: center;
+                    margin-top: 0;
+                }
+                }
+                a {
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        box-shadow: 2px 5px 5px 4px rgba(0,0,0,0.75);
+                        -webkit-box-shadow: 2px 5px 5px 4px rgba(0,0,0,0.75);
+                        -moz-box-shadow: 2px 5px 5px 4px rgba(0,0,0,0.75);
+                    }
+                }
+
+            }
+            .principal__dives__bloglink {
+                div {
+                    width: 100%;
+                    height: 350px;
+                    position: relative;
+                    h3 {
+                        position: absolute;
+                        width: 100%;
+                        text-align: center;
+                        margin-top: 0;
+                    }
+                    a { 
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    } 
+
+                }
+
+            }
+    .titulo {
+        text-align: center;
+        h1 {background-color: $color-secundario} 
+        p  {margin-bottom: 10px;}
+    }
+    .acercade {
+        display: flex;
+        align-items: center;
+        padding-bottom: 25px;
+        background-color: $color-principal;
+        div {
+            p {
+                margin: 5px 45px 5px 45px;}
+        }
+        div {
+            img {
+                height: 300px;
+                width: 300px;
+                padding: 5px;
+            }
+        }
+    }
+    .mistrabajos {
+        .mistrabajos__dives {
+            display: grid;
+            grid-auto-rows: 300px;
+            grid-template-columns: repeat(3,1fr);
+            gap: 10px;
+            div {
+                position: relative;
+                border: black 2px;
+                border-style: ridge;
+                margin-bottom: 5px;
+                h3 {
+                    position: absolute;
+                    top: 0;
+                    text-align: center;
+                    background-color: rgba(255, 228, 196, 0.322);
+                    width: 100%;
+                }
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    box-shadow: 1px 5px 5px 4px rgba(0,0,0,0.75);
+                    -webkit-box-shadow: 1px 5px 5px 4px rgba(0,0,0,0.75);
+                    -moz-box-shadow: 1px 5px 5px 4px rgba(0,0,0,0.75);
+                }
+            }
+            .mistrabajos__dives__c3 {
+                grid-row: span 2;
+
+            }
+            .mistrabajos__dives__c6 {
+                grid-column: span 2;
+            }    
+        }
+    }
+    .servicios {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        div {
+            margin-top: 15px;
+        }
+
+    }
+    .blog {
+        .blog__recetas {
+            display: flex;
+            flex-wrap: wrap;
+            div {
+                width: 447px; height: 1000px;
+                border: black 2px solid;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                img {
+                    width: 350px; height: 300px;
+                }
+                h4 {
+                    font-size: 20px
+                }
+                p {
+                    margin-bottom: 10px;}
+                iframe {
+                    width: 350px;
+                    height: 300px;
+                    text-align: end;
+                }
+            }
+        }
+    }
+    .contacto {
+        background-image: url(../img/minibrownies2.JPG);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80%;
+        .contacto__formulario {
+            display: flex;
+            justify-content: center;
+            form {
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+                div {
+                    display: flex;  
+                    flex-direction: column;
+                    h3 {
+                        text-align: start; margin: 10px 0px 15px 0px;
+                        color: $color-tres;
+                        text-shadow:black 1px 1px;
+                    }
+                    label {
+                        color: white;
+                        text-shadow: $color-tres 1px 1px;
+                    }
+                    input {
+                        font-size: 20px; padding: 5px;
+                    }
+                }
+            }    
+        }
+    }
+}

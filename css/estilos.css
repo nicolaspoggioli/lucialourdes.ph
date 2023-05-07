@@ -1,0 +1,357 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400&family=Oswald:wght@200;300;400;500;600&family=Poppins:wght@100;300;400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+* {
+  font-family: 'Oswald', sans-serif; }
+
+h1 {
+  color: #0e674d;
+  font-size: 38px;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: black 1px 1px;
+  padding: 15px; }
+
+h2 {
+  color: white;
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+  padding-top: 10px; }
+
+h3 {
+  font-size: 30px;
+  color: #0e674d;
+  text-shadow: #c1a7b3 2px 1px;
+  padding-top: 10px; }
+
+p {
+  color: black;
+  font-style: normal;
+  font-size: 20px; }
+
+li {
+  list-style: none; }
+
+li a {
+  color: white;
+  text-decoration: none;
+  font-size: 23px; }
+
+main {
+  background-color: #c1a7b3; }
+
+header {
+  border: none;
+  background-color: #c1a7b3;
+  padding: 1px;
+  position: sticky;
+  top: 0%;
+  z-index: 10; }
+  header nav div div .navbar-nav {
+    align-items: center; }
+    header nav div div .navbar-nav li {
+      margin: 0px 7px 0px 7px; }
+      header nav div div .navbar-nav li a:hover {
+        color: #0e674d; }
+      header nav div div .navbar-nav li .dropdown-menu {
+        background-color: #c1a7b3;
+        text-align: center; }
+        header nav div div .navbar-nav li .dropdown-menu li a {
+          font-size: 20px; }
+  header nav div form input:hover {
+    background-color: #ecdce9; }
+  header nav div form button {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 3px 7px 3px 7px;
+    font-size: 17px;
+    background-color: #ecdce9; }
+    header nav div form button:hover {
+      background-color: #0e674d;
+      color: white; }
+  header nav .wsp {
+    margin-left: 20px; }
+    header nav .wsp i {
+      font-size: 35px;
+      color: #0e674d; }
+
+main .hero {
+  background-image: url(../img/minibrownies2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  height: 400px;
+  width: 100%; }
+  main .hero h1 {
+    background-color: rgba(255, 228, 196, 0.322); }
+  main .hero p {
+    padding: 45px;
+    color: white;
+    font-size: 25px;
+    text-align: center; }
+
+main .principal {
+  margin-top: 5px;
+  padding-bottom: 10px; }
+  main .principal .principal__dives {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 350px;
+    gap: 15px; }
+    main .principal .principal__dives .principal__dives__potencia {
+      text-align: center;
+      background-image: url(../img/budinbanana2.JPG);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-position-y: center;
+      grid-row: span 2;
+      box-shadow: 2px 5px 5px 4px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: 2px 5px 5px 4px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 2px 5px 5px 4px rgba(0, 0, 0, 0.75); }
+      main .principal .principal__dives .principal__dives__potencia h2 {
+        text-shadow: #0e674d 2px 2px; }
+      main .principal .principal__dives .principal__dives__potencia p {
+        margin: 15% 20% 10% 20%;
+        font-size: 27px;
+        text-align: center;
+        color: white;
+        text-shadow: black 2px 1px; }
+  main .principal div {
+    width: 100%;
+    height: 100%;
+    position: relative; }
+    main .principal div h3 {
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      margin-top: 0; }
+  main .principal a img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 2px 5px 5px 4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 2px 5px 5px 4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 5px 5px 4px rgba(0, 0, 0, 0.75); }
+
+main .principal__dives__bloglink div {
+  width: 100%;
+  height: 350px;
+  position: relative; }
+  main .principal__dives__bloglink div h3 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 0; }
+  main .principal__dives__bloglink div a img {
+    width: 100%;
+    height: 100%; }
+
+main .titulo {
+  text-align: center; }
+  main .titulo h1 {
+    background-color: #ecdce9; }
+  main .titulo p {
+    margin-bottom: 10px; }
+
+main .acercade {
+  display: flex;
+  align-items: center;
+  padding-bottom: 25px;
+  background-color: #c1a7b3; }
+  main .acercade div p {
+    margin: 5px 45px 5px 45px; }
+  main .acercade div img {
+    height: 300px;
+    width: 300px;
+    padding: 5px; }
+
+main .mistrabajos .mistrabajos__dives {
+  display: grid;
+  grid-auto-rows: 300px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px; }
+  main .mistrabajos .mistrabajos__dives div {
+    position: relative;
+    border: black 2px;
+    border-style: ridge;
+    margin-bottom: 5px; }
+    main .mistrabajos .mistrabajos__dives div h3 {
+      position: absolute;
+      top: 0;
+      text-align: center;
+      background-color: rgba(255, 228, 196, 0.322);
+      width: 100%; }
+    main .mistrabajos .mistrabajos__dives div img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      box-shadow: 1px 5px 5px 4px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: 1px 5px 5px 4px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 1px 5px 5px 4px rgba(0, 0, 0, 0.75); }
+  main .mistrabajos .mistrabajos__dives .mistrabajos__dives__c3 {
+    grid-row: span 2; }
+  main .mistrabajos .mistrabajos__dives .mistrabajos__dives__c6 {
+    grid-column: span 2; }
+
+main .servicios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  main .servicios div {
+    margin-top: 15px; }
+
+main .blog .blog__recetas {
+  display: flex;
+  flex-wrap: wrap; }
+  main .blog .blog__recetas div {
+    width: 447px;
+    height: 1000px;
+    border: black 2px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    main .blog .blog__recetas div img {
+      width: 350px;
+      height: 300px; }
+    main .blog .blog__recetas div h4 {
+      font-size: 20px; }
+    main .blog .blog__recetas div p {
+      margin-bottom: 10px; }
+    main .blog .blog__recetas div iframe {
+      width: 350px;
+      height: 300px;
+      text-align: end; }
+
+main .contacto {
+  background-image: url(../img/minibrownies2.JPG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%; }
+  main .contacto .contacto__formulario {
+    display: flex;
+    justify-content: center; }
+    main .contacto .contacto__formulario form {
+      display: flex;
+      flex-direction: column;
+      width: 50%; }
+      main .contacto .contacto__formulario form div {
+        display: flex;
+        flex-direction: column; }
+        main .contacto .contacto__formulario form div h3 {
+          text-align: start;
+          margin: 10px 0px 15px 0px;
+          color: #0e674d;
+          text-shadow: black 1px 1px; }
+        main .contacto .contacto__formulario form div label {
+          color: white;
+          text-shadow: #0e674d 1px 1px; }
+        main .contacto .contacto__formulario form div input {
+          font-size: 20px;
+          padding: 5px; }
+
+.footer {
+  background-color: #c1a7b3;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  border: #0e674d solid 3px; }
+  .footer .footer__logo a img {
+    width: 80px;
+    height: 70px; }
+  .footer .footer__redes h2 {
+    text-shadow: #0e674d 2px 2px;
+    margin-bottom: 0%; }
+  .footer .footer__redes .footer__redes__iconos a i {
+    color: #0e674d;
+    font-size: 45px;
+    margin: 0px 15px 0px 15px; }
+  .footer .footer__dda {
+    display: flex;
+    margin-right: 15px;
+    margin-top: 25px; }
+    .footer .footer__dda img {
+      height: 20px;
+      width: 20px;
+      margin-right: 3px; }
+    .footer .footer__dda p {
+      color: black;
+      font-size: 15px; }
+
+@media screen and (max-width: 1067px) {
+  main .blog .blog__recetas {
+    justify-content: space-around; } }
+
+@media screen and (max-width: 955px) {
+  main .principal .principal__dives {
+    grid-template-columns: repeat(2, 1fr); }
+  main .mistrabajos .mistrabajos__dives {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 250px; }
+    main .mistrabajos .mistrabajos__dives .mistrabajos__dives__c6 {
+      grid-column: span 1; }
+  main .acercade {
+    flex-wrap: wrap;
+    justify-content: center; } }
+
+@media screen and (max-width: 670px) {
+  .footer .footer__logo a img {
+    margin-left: 15px;
+    height: 60px;
+    width: 65px; }
+  .footer .footer__redes h2 {
+    font-size: 23px;
+    margin-right: 5px; }
+  .footer .footer__redes .footer__redes__iconos a i {
+    font-size: 25px; }
+  .footer .footer__dda {
+    margin-left: 20px;
+    margin-top: 5px; }
+    .footer .footer__dda img {
+      height: 10px;
+      width: 10px;
+      margin-right: 2px; }
+    .footer .footer__dda p {
+      font-size: 10px; } }
+
+@media screen and (max-width: 450px) {
+  *p {
+    font-size: 15px; }
+  *h1 {
+    font-size: 20px; }
+  *h2 {
+    font-size: 20px; }
+  main .principal .principal__dives {
+    grid-template-columns: 1fr; }
+    main .principal .principal__dives .principal__dives__potencia {
+      grid-row: 1; }
+      main .principal .principal__dives .principal__dives__potencia p {
+        font-size: 20px; }
+  main .mistrabajos .mistrabajos__dives {
+    grid-template-columns: 1fr;
+    grid-template-rows: 250px; }
+    main .mistrabajos .mistrabajos__dives .mistrabajos__dives__c6 {
+      grid-column: span 1; }
+  .footer .footer__logo a img {
+    margin-left: 15px;
+    height: 60px;
+    width: 65px; }
+  .footer .footer__redes h2 {
+    font-size: 23px;
+    margin-right: 5px; }
+  .footer .footer__redes .footer__redes__iconos a i {
+    font-size: 25px; }
+  .footer .footer__dda {
+    margin-left: 10px;
+    margin-top: 0; }
+    .footer .footer__dda img {
+      height: 10px;
+      width: 10px;
+      margin-right: 2px; }
+    .footer .footer__dda p {
+      font-size: 10px; } }

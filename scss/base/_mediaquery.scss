@@ -1,0 +1,141 @@
+@media screen and (max-width: 1067px){
+    main {
+        .blog {
+            .blog__recetas {
+                justify-content: space-around;}
+        }
+    }
+}
+
+@media screen and (max-width: 955px) {
+    main {
+        .principal {
+            .principal__dives {
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+        .mistrabajos {
+            .mistrabajos__dives {
+                grid-template-columns: repeat(2,1fr);
+                grid-template-rows: 250px;
+                .mistrabajos__dives__c6 {
+                    grid-column: span 1;
+                    }
+            }
+
+        }
+        .acercade {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .footer {
+        .footer__logo {
+            a {
+                img {
+                    margin-left: 15px;
+                    height: 60px;
+                    width: 65px;
+                }
+            }
+
+        }
+        .footer__redes {
+            h2 {
+                font-size: 23px;
+                margin-right: 5px;
+            }
+            .footer__redes__iconos {
+                a { 
+                    i {
+                        font-size: 25px;}
+                }
+
+            }
+        }
+
+        .footer__dda {
+            margin-left: 20px;
+            margin-top: 5px;
+            img {
+                height: 10px;
+                width: 10px;
+                margin-right: 2px;
+            }
+            p {font-size: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    *p {font-size: 15px;}
+    *h1 {font-size: 20px;} 
+    *h2 {font-size: 20px;}
+
+    main {
+        .principal {
+            .principal__dives {
+                grid-template-columns: 1fr;
+                .principal__dives__potencia {
+                    grid-row: 1;
+                    p {
+                        font-size: 20px;
+                    }
+            }
+
+            }
+        }
+
+        .mistrabajos {
+            .mistrabajos__dives {
+                grid-template-columns: 1fr;
+                grid-template-rows: 250px;
+                .mistrabajos__dives__c6 {
+                    grid-column: span 1;
+                }
+            }
+        }
+    }
+
+    .footer {
+        .footer__logo {
+            a {
+                img {
+                    margin-left: 15px;
+                    height: 60px;
+                    width: 65px;
+                }
+            }
+
+        }
+        .footer__redes {
+            h2 {
+                font-size: 23px;
+                margin-right: 5px;
+            }
+            .footer__redes__iconos {
+                a { 
+                    i {
+                        font-size: 25px;}
+                }
+
+            }
+        }
+
+        .footer__dda {
+            margin-left: 10px;
+            margin-top: 0;
+            img {
+                height: 10px;
+                width: 10px;
+                margin-right: 2px;
+            }
+            p {font-size: 10px;
+            }
+        }
+    }
+}

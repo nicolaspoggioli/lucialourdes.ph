@@ -52,6 +52,9 @@ li a {
     font-size: 23px;
     
 }
+
+main {
+    background-color: #c1a7b3}
 /*--------------------------------------------------HEADER-------------------------------------------------------------*/
 header {
     border: none;
@@ -67,13 +70,13 @@ header {
 /*---barra de navegacion-------------menu---------------*/
 
 header nav div li {
-    margin: 0px 7px 0px 7px
+    margin: 0px 7px 0px 7px;
 }
 header nav div ul li a:hover {
     color: #0e674d;
 }
 .navbar-nav {
-    align-items: center;
+    
 }
 .wsp { 
     margin-left: 20px;
@@ -165,8 +168,7 @@ header nav ul li a {
 ---------------------------------*/
 
 /*-------------------------------------------------------MAIN----------------------------------------------------------*/
-main {
-    background-color: #c1a7b3}
+
 
 .hero {
     background-image: url(../img/minibrownies2.jpg);
