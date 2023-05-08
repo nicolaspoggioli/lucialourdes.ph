@@ -208,24 +208,32 @@ main .servicios {
 main .blog .blog__recetas {
   display: flex;
   flex-wrap: wrap; }
+  main .blog .blog__recetas .chipa {
+    background-color: #ecdce9; }
   main .blog .blog__recetas div {
     width: 447px;
     height: 1000px;
-    border: black 2px solid;
     display: flex;
     flex-direction: column;
     align-items: center; }
+    main .blog .blog__recetas div h3 {
+      text-shadow: 1px 2px white;
+      background-color: #ecdce9; }
     main .blog .blog__recetas div img {
       width: 350px;
       height: 300px; }
     main .blog .blog__recetas div h4 {
-      font-size: 20px; }
+      font-size: 25px;
+      margin: 2px;
+      margin-top: 5px;
+      color: white;
+      text-shadow: 1px 2px #0e674d; }
     main .blog .blog__recetas div p {
-      margin-bottom: 10px; }
+      margin: 10px; }
     main .blog .blog__recetas div iframe {
-      width: 350px;
-      height: 300px;
-      text-align: end; }
+      width: 250px;
+      height: 200px;
+      margin: 1px; }
 
 main .contacto {
   background-image: url(../img/minibrownies2.jpg);
