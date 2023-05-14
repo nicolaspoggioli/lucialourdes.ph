@@ -8,6 +8,8 @@ main {
         height: 400px;
         width: 100%;
         h1 {
+            color: white;
+            text-shadow: $color-tres 1px 2px;
             background-color: rgba(255, 228, 196, 0.322);
         }
         p {
@@ -19,13 +21,13 @@ main {
 
     }
     .principal {
-        margin-top: 5px; 
+        margin-top: 10px; 
         padding-bottom: 10px;
         .principal__dives {
             display: grid;
             grid-template-columns: repeat(3,1fr);
             grid-auto-rows: 350px;
-            gap: 15px;
+            gap: 25px;
             .principal__dives__potencia {
                 text-align: center;
                 background-image: url(../img/budinbanana2.JPG);
@@ -38,7 +40,8 @@ main {
                 -webkit-box-shadow: 2px 5px 5px 4px rgba(0,0,0,0.75);
                 -moz-box-shadow: 2px 5px 5px 4px rgba(0,0,0,0.75);
                 h2 {
-                    text-shadow: $color-tres 2px 2px;
+                    color: $color-tres;
+                    text-shadow: white 1px 1px;
                 }
                 p {
                     margin: 15% 20% 10% 20%;
@@ -154,8 +157,22 @@ main {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+        padding: 15px;
         div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             margin-top: 15px;
+            border: 2px solid black;
+            width: 30%;
+            h4 {
+                font-size: 20px;
+            }
+            .texto {
+                color: $color-secundario;
+                font-style: italic;
+            }
+            
         }
 
     }
@@ -165,11 +182,16 @@ main {
             flex-wrap: wrap;
             .chipa {
                 background-color: $color-secundario;
+                img {
+                    width: 350px; height: 330px;
+                }
             }
             div {
-                width: 447px; height: 1000px;
+                width: 447px; 
+                height: 1000px;
                 display: flex;
                 flex-direction: column;
+                justify-content: center;
                 align-items: center;
                 h3 {
                     text-shadow: 1px 2px white;
@@ -177,13 +199,14 @@ main {
                 }
                 img {
                     width: 350px; height: 300px;
+                    
                 }
                 h4 {
                     font-size: 25px;
                     margin: 2px;
                     margin-top: 5px;
                     color: white;
-                    text-shadow: 1px 2px $color-tres;
+                    text-shadow: 1px 2px black;
                 }
                 p {
                     margin: 10px;}
