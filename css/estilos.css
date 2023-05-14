@@ -204,20 +204,32 @@ main .mistrabajos .mistrabajos__dives {
 main .servicios {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 15px; }
+  justify-content: space-between;
+  padding: 15px;
+  background-image: url(../img/minibrownies1.jpg);
+  background-size: cover;
+  background-position: center; }
+  main .servicios .servicios__2 ul li p {
+    color: white; }
+  main .servicios .servicios__5
+ul li p {
+    color: white; }
   main .servicios div {
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin-top: 15px;
     border: 2px solid black;
-    width: 30%; }
-    main .servicios div h4 {
-      font-size: 20px; }
-    main .servicios div .texto {
-      color: #ecdce9;
-      font-style: italic; }
+    width: 280px;
+    height: 220px;
+    margin: 25px; }
+    main .servicios div h3 {
+      padding-top: 0;
+      align-self: center; }
+    main .servicios div ul li {
+      list-style: circle; }
+      main .servicios div ul li p {
+        font-size: 20px;
+        margin: 5px; }
 
 main .blog .blog__recetas {
   display: flex;
