@@ -234,11 +234,6 @@ ul li p {
 main .blog .blog__recetas {
   display: flex;
   flex-wrap: wrap; }
-  main .blog .blog__recetas .chipa {
-    background-color: #ecdce9; }
-    main .blog .blog__recetas .chipa img {
-      width: 350px;
-      height: 330px; }
   main .blog .blog__recetas div {
     width: 447px;
     height: 1000px;

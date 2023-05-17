@@ -207,12 +207,6 @@ main {
         .blog__recetas {
             display: flex;
             flex-wrap: wrap;
-            .chipa {
-                background-color: $color-secundario;
-                img {
-                    width: 350px; height: 330px;
-                }
-            }
             div {
                 width: 447px; 
                 height: 1000px;
@@ -226,7 +220,6 @@ main {
                 }
                 img {
                     width: 350px; height: 300px;
-                    
                 }
                 h4 {
                     font-size: 25px;
