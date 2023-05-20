@@ -268,7 +268,7 @@ main .contacto {
   background-position-y: center;
   height: 500px; }
   main .contacto .contacto__div {
-    font-size: 22px;
+    font-size: 23px;
     color: white;
     display: flex;
     flex-direction: column;

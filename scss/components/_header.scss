@@ -23,7 +23,7 @@ header {
                             text-align: center;
                             li {
                                 a {
-                                    font-size: 20px;
+                                    font-size: nth($font-size, 3);
                                 }
                             }
                         }
@@ -42,7 +42,7 @@ header {
                     border: 2px solid black;
                     border-radius: 5px;
                     padding: 3px 7px 3px 7px;
-                    font-size: 17px;
+                    font-size: nth($font-size, 3);
                     background-color: $color-secundario;
                     &:hover {
                         background-color: $color-tres;
@@ -55,7 +55,7 @@ header {
         .wsp {
             margin-left: 20px;
             i {
-                font-size: 35px;
+                font-size: nth($font-size, 8);
                 color: $color-tres;
 
             }

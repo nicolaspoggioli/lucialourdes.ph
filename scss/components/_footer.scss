@@ -22,7 +22,7 @@
             a {
                 i {
                     color: $color-tres;
-                    font-size: 45px;
+                    font-size: nth($font-size, 9);
                     margin: 0px 15px 0px 15px;
 
                 }
@@ -40,7 +40,7 @@
         }
         p {
             color: black;
-            font-size: 15px;
+            font-size: nth($font-size, 2);
         }
     }
 }
