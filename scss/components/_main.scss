@@ -100,23 +100,8 @@ main {
         h1 {background-color: $color-secundario} 
         p  {margin-bottom: 10px;}
     }
-    .acercade {
-        display: flex;
-        align-items: center;
-        padding-bottom: 25px;
-        background-color: $color-principal;
-        div {
-            p {
-                margin: 5px 45px 5px 45px;}
-        }
-        div {
-            img {
-                height: 300px;
-                width: 300px;
-                padding: 5px;
-            }
-        }
-    }
+
+
     .mistrabajos {
         .mistrabajos__dives {
             display: grid;
@@ -201,6 +186,24 @@ main {
             }  
         }
     }
+    .acercade {
+        display: flex;
+        align-items: center;
+        padding-bottom: 25px;
+        background-color: $color-principal;
+        .acercade__divi
+        {
+            img {
+                height: 300px;
+                width: 300px;
+                padding: 5px;
+            }
+        }
+        .acercade__divp
+        p {
+            color: white;
+        }
+    }
 
 
     .blog {
@@ -238,6 +241,7 @@ main {
             }
         }
     }
+
     .contacto {
         background-image: url(../img/minibrownies2.jpg);
         background-size: cover;
