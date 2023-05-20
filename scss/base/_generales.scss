@@ -11,8 +11,8 @@
 }
 
 h1 {
-    color: $color-tres;
-    font-size: nth($font-size, 8);
+    color: #0e674d;
+    font-size: 38px;
     font-weight: 600;
     text-align: center;
     text-shadow: black 1px 1px;
@@ -21,7 +21,7 @@ h1 {
 
 h2 {
     color: white;
-    font-size: nth($font-size, 7);
+    font-size: 30px;
     font-style: italic;
     text-align: center;
     padding-top: 10px;
@@ -29,16 +29,15 @@ h2 {
 
 h3 {
     font-size: 30px;
-    color: $color-tres;
+    color: #0e674d;
     text-shadow: black 1px 1px;
     padding-top: 10px;
 }
 
-
 p {
     color: black;
     font-style: normal;
-    font-size: nth($font-size, 3);
+    font-size: 20px;
 }
 
 li {
@@ -48,9 +47,9 @@ li {
 li a {
     color: white; 
     text-decoration: none;
-    font-size: nth($font-size, 4);
+    font-size: 23px;
     
 }
 
 main {
-    background-color: $color-principal}
+    background-color: #c1a7b3;}

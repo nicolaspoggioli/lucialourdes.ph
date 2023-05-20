@@ -24,12 +24,29 @@
             }
 
         }
+        .flyers {
+            div {
+                img {
+                    width: 300px;
+                    height: 375px;
+                    border: black 3px solid;
+                    margin: 10px;
+                }
+            }
+        }
+
+
         .acercade {
             flex-wrap: wrap;
             justify-content: center;
         }
+
+        .servicios {
+            padding: 10px;
+        }
     }
 }
+
 
 @media screen and (max-width: 670px) {
     .footer {
@@ -70,6 +87,13 @@
             }
         }
     }
+    .servicios {
+        justify-content: center;
+        div {
+            height: 100%;
+        }
+    }
+
 }
 
 @media screen and (max-width: 450px) {
@@ -100,7 +124,9 @@
         }
 
 
-
+        .servicios {
+            padding: 6px;
+        }
 
 
         .mistrabajos {
@@ -109,6 +135,16 @@
                 grid-template-rows: 250px;
                 .mistrabajos__dives__c6 {
                     grid-column: span 1;
+                }
+            }
+        }
+        .flyers {
+            div {
+                img {
+                    width: 350px;
+                    height: 400px;
+                    border: black 2px solid;
+                    margin: 6px;
                 }
             }
         }
@@ -150,5 +186,24 @@
             p {font-size: nth($font-size, 1);
             }
         }
+    }
+    .servicios {
+        div {
+            width: 250px;
+            height: 100%;
+
+        }
+        h3 {font-size: nth($font-size,4);
+        padding: 0;
+        margin: 0;}
+        ul {
+            li {
+                list-style: circle;  
+                p {
+                    font-size: nth($font-size, 3);
+                    margin: 5px;
+                }
+            }
+        }  
     }
 }

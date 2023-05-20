@@ -68,7 +68,7 @@ header {
     border: 2px solid black;
     border-radius: 5px;
     padding: 3px 7px 3px 7px;
-    font-size: 17px;
+    font-size: 20px;
     background-color: #ecdce9; }
     header nav div form button:hover {
       background-color: #0e674d;
@@ -76,7 +76,7 @@ header {
   header nav .wsp {
     margin-left: 20px; }
     header nav .wsp i {
-      font-size: 35px;
+      font-size: 38px;
       color: #0e674d; }
 
 main .hero {
@@ -160,114 +160,145 @@ main .titulo {
     background-color: #ecdce9; }
   main .titulo p {
     margin-bottom: 10px; }
+  main .titulo .titulo__sub {
+    font-size: 30px;
+    font-style: oblique; }
 
-main .acercade {
+main .mistrabajos {
+  margin-bottom: 10px; }
+  main .mistrabajos .mistrabajos__dives {
+    display: grid;
+    grid-auto-rows: 300px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; }
+    main .mistrabajos .mistrabajos__dives div {
+      position: relative;
+      border: black 2px;
+      border-style: ridge;
+      margin-bottom: 5px; }
+      main .mistrabajos .mistrabajos__dives div h3 {
+        position: absolute;
+        top: 0;
+        text-align: center;
+        background-color: rgba(255, 228, 196, 0.322);
+        width: 100%; }
+      main .mistrabajos .mistrabajos__dives div img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        box-shadow: 1px 5px 5px 4px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 1px 5px 5px 4px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 1px 5px 5px 4px rgba(0, 0, 0, 0.75); }
+    main .mistrabajos .mistrabajos__dives .mistrabajos__dives__c3 {
+      grid-row: span 2; }
+    main .mistrabajos .mistrabajos__dives .mistrabajos__dives__c6 {
+      grid-column: span 2; }
+
+main .flyers .flyers__sub {
+  color: #0e674d;
+  font-size: 38px;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: black 1px 1px;
+  padding: 10px;
+  background-color: #ecdce9; }
+
+main .flyers div {
   display: flex;
-  align-items: center;
-  padding-bottom: 25px;
-  background-color: #c1a7b3; }
-  main .acercade div p {
-    margin: 5px 45px 5px 45px; }
-  main .acercade div img {
-    height: 300px;
-    width: 300px;
-    padding: 5px; }
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 10px; }
+  main .flyers div img {
+    width: 400px;
+    height: 450px;
+    border: black 4px solid; }
 
-main .mistrabajos .mistrabajos__dives {
-  display: grid;
-  grid-auto-rows: 300px;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px; }
-  main .mistrabajos .mistrabajos__dives div {
-    position: relative;
-    border: black 2px;
-    border-style: ridge;
-    margin-bottom: 5px; }
-    main .mistrabajos .mistrabajos__dives div h3 {
-      position: absolute;
-      top: 0;
-      text-align: center;
-      background-color: rgba(255, 228, 196, 0.322);
-      width: 100%; }
-    main .mistrabajos .mistrabajos__dives div img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      box-shadow: 1px 5px 5px 4px rgba(0, 0, 0, 0.75);
-      -webkit-box-shadow: 1px 5px 5px 4px rgba(0, 0, 0, 0.75);
-      -moz-box-shadow: 1px 5px 5px 4px rgba(0, 0, 0, 0.75); }
-  main .mistrabajos .mistrabajos__dives .mistrabajos__dives__c3 {
-    grid-row: span 2; }
-  main .mistrabajos .mistrabajos__dives .mistrabajos__dives__c6 {
-    grid-column: span 2; }
-
-main .servicios {
+.servicios {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 15px;
-  background-image: url(../img/minibrownies1.jpg);
+  background-image: url(../img/red.jpg);
   background-size: cover;
   background-position: center; }
-  main .servicios .servicios__2 ul li p {
-    color: white; }
-  main .servicios .servicios__5
-ul li p {
-    color: white; }
-  main .servicios div {
+  .servicios div {
     display: flex;
     flex-direction: column;
     margin-top: 15px;
-    border: 2px solid black;
+    border: 3px solid black;
     width: 280px;
-    height: 220px;
-    margin: 25px; }
-    main .servicios div h3 {
+    height: 235px;
+    margin: 25px;
+    background-color: rgba(255, 244, 244, 0.274); }
+    .servicios div h3 {
       padding-top: 0;
-      align-self: center; }
-    main .servicios div ul li {
+      align-self: center;
+      background-color: rgba(255, 228, 196, 0.322);
+      width: 100%;
+      display: flex;
+      justify-content: center; }
+    .servicios div ul li {
       list-style: circle; }
-      main .servicios div ul li p {
-        font-size: 20px;
+      .servicios div ul li p {
+        font-size: 23px;
         margin: 5px; }
 
-main .blog .blog__recetas {
+.acercade {
+  display: flex;
+  align-items: center;
+  padding-bottom: 25px;
+  background: #c1a7b3;
+  background: linear-gradient(90deg, #c1a7b3 13%, #f6c3dd 100%); }
+  .acercade .acercade__divi img {
+    height: 350px;
+    width: 300px;
+    padding: 5px;
+    box-shadow: 2px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 2px 5px 5px 10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 5px 5px 0px rgba(0, 0, 0, 0); }
+  .acercade .acercade__divp
+p {
+    font-size: 23px;
+    color: black;
+    margin: 35px; }
+
+.blog .blog__recetas {
   display: flex;
   flex-wrap: wrap; }
-  main .blog .blog__recetas div {
+  .blog .blog__recetas div {
     width: 447px;
     height: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-    main .blog .blog__recetas div h3 {
+    .blog .blog__recetas div h3 {
       text-shadow: 1px 2px white;
       background-color: #ecdce9; }
-    main .blog .blog__recetas div img {
+    .blog .blog__recetas div img {
       width: 350px;
       height: 300px; }
-    main .blog .blog__recetas div h4 {
+    .blog .blog__recetas div h4 {
       font-size: 25px;
       margin: 2px;
       margin-top: 5px;
       color: white;
       text-shadow: 1px 2px black; }
-    main .blog .blog__recetas div p {
+    .blog .blog__recetas div p {
       margin: 10px; }
-    main .blog .blog__recetas div iframe {
+    .blog .blog__recetas div iframe {
       width: 250px;
       height: 200px;
       margin: 1px; }
 
-main .contacto {
+.contacto {
   background-image: url(../img/minibrownies2.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-position-y: center;
   height: 500px; }
-  main .contacto .contacto__div {
+  .contacto .contacto__div {
     font-size: 23px;
     color: white;
     display: flex;
@@ -275,19 +306,19 @@ main .contacto {
     justify-content: center;
     align-items: center;
     width: 100%; }
-    main .contacto .contacto__div div {
+    .contacto .contacto__div div {
       width: 50%; }
-    main .contacto .contacto__div .botones {
+    .contacto .contacto__div .botones {
       display: flex;
       justify-content: space-between;
       margin-bottom: 5px; }
-      main .contacto .contacto__div .botones .btn {
+      .contacto .contacto__div .botones .btn {
         background-color: #ecdce9;
         border: 2px solid black;
         border-radius: 5px;
         padding: 3px 7px 3px 7px;
         font-size: 20px; }
-        main .contacto .contacto__div .botones .btn:hover {
+        .contacto .contacto__div .botones .btn:hover {
           background-color: #0e674d; }
 
 .footer {
@@ -331,9 +362,16 @@ main .contacto {
     grid-template-rows: 250px; }
     main .mistrabajos .mistrabajos__dives .mistrabajos__dives__c6 {
       grid-column: span 1; }
+  main .flyers div img {
+    width: 300px;
+    height: 375px;
+    border: black 3px solid;
+    margin: 10px; }
   main .acercade {
     flex-wrap: wrap;
-    justify-content: center; } }
+    justify-content: center; }
+  main .servicios {
+    padding: 10px; } }
 
 @media screen and (max-width: 670px) {
   .footer .footer__logo a img {
@@ -353,7 +391,11 @@ main .contacto {
       width: 10px;
       margin-right: 2px; }
     .footer .footer__dda p {
-      font-size: 10px; } }
+      font-size: 10px; }
+  .servicios {
+    justify-content: center; }
+    .servicios div {
+      height: 100%; } }
 
 @media screen and (max-width: 450px) {
   main .principal .principal__dives {
@@ -370,11 +412,18 @@ main .contacto {
   main .hero p {
     justify-content: center;
     font-size: 20px; }
+  main .servicios {
+    padding: 6px; }
   main .mistrabajos .mistrabajos__dives {
     grid-template-columns: 1fr;
     grid-template-rows: 250px; }
     main .mistrabajos .mistrabajos__dives .mistrabajos__dives__c6 {
       grid-column: span 1; }
+  main .flyers div img {
+    width: 350px;
+    height: 400px;
+    border: black 2px solid;
+    margin: 6px; }
   .footer .footer__logo a img {
     margin-left: 15px;
     height: 60px;
@@ -392,4 +441,16 @@ main .contacto {
       width: 10px;
       margin-right: 2px; }
     .footer .footer__dda p {
-      font-size: 10px; } }
+      font-size: 10px; }
+  .servicios div {
+    width: 250px;
+    height: 100%; }
+  .servicios h3 {
+    font-size: 23px;
+    padding: 0;
+    margin: 0; }
+  .servicios ul li {
+    list-style: circle; }
+    .servicios ul li p {
+      font-size: 20px;
+      margin: 5px; } }

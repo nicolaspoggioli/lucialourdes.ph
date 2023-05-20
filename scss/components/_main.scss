@@ -97,12 +97,17 @@ main {
             }
     .titulo {
         text-align: center;
-        h1 {background-color: $color-secundario} 
-        p  {margin-bottom: 10px;}
+        h1 {background-color: $color-secundario}; 
+        p  {margin-bottom: 10px};
+        .titulo__sub {  
+            font-size: nth($font-size, 7 );
+            font-style: oblique;
+        }   
     }
 
 
     .mistrabajos {
+        margin-bottom: 10px;
         .mistrabajos__dives {
             display: grid;
             grid-auto-rows: 300px;
@@ -137,49 +142,65 @@ main {
                 grid-column: span 2;
             }    
         }
+
     }
+    .flyers {
+        .flyers__sub {  
+            color: #0e674d;
+            font-size: 38px;
+            font-weight: 600;
+            text-align: center;
+            text-shadow: black 1px 1px;
+            padding: 10px;
+            background-color: $color-secundario;
+        }   
+        div {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding-bottom: 10px;
+            img {
+                width: 400px;
+                height: 450px;
+                border: black 4px solid;
+            }
+        }
+    }
+}
+
+    
     .servicios {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         padding: 15px;
-        background-image: url(../img/minibrownies1.jpg);
+        background-image: url(../img/red.jpg);
         background-size:cover;
         background-position: center;
-        .servicios__2 {
-            ul {
-                li {
-                    p {
-                        color: white;
-                    }
-                }
-            }
-        }
-        .servicios__5
-            ul {
-                li {
-                    p {
-                        color: white;
-                    }
-                }
-            }
         div {
             display: flex;
             flex-direction: column;
             margin-top: 15px;
-            border: 2px solid black;
+            border: 3px solid black;
             width: 280px;
-            height: 220px;
+            height: 235px;
             margin: 25px;
+            background-color: rgba(255, 244, 244, 0.274);
             h3 {
                 padding-top: 0;
                 align-self: center;
+                background-color: $color-cuatro;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                
+
             }
             ul {
                 li {
                     list-style: circle;  
                     p {
-                        font-size: nth($font-size, 3);
+                        font-size: nth($font-size, 4);
                         margin: 5px;
                     }
                 }
@@ -190,18 +211,25 @@ main {
         display: flex;
         align-items: center;
         padding-bottom: 25px;
-        background-color: $color-principal;
+        background: rgb(193,167,179);
+        background: linear-gradient(90deg, rgba(193,167,179,1) 13%, rgba(246,195,221,1) 100%);
         .acercade__divi
         {
             img {
-                height: 300px;
+                height: 350px;
                 width: 300px;
                 padding: 5px;
+                box-shadow: 2px 5px 5px 0px rgba(0,0,0,0.75);
+                -webkit-box-shadow: 2px 5px 5px 10px rgba(0,0,0,0.75);
+                -moz-box-shadow: 2px 5px 5px 0px rgba(0, 0, 0, 0);
+
             }
         }
         .acercade__divp
         p {
-            color: white;
+            font-size: nth($font-size, 4);
+            color:black;
+            margin: 35px;
         }
     }
 
@@ -278,5 +306,4 @@ main {
             }
         }
     }
-}
 
