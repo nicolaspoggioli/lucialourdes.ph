@@ -102,6 +102,16 @@ main {
             font-size: nth($font-size, 5 );
             margin-bottom: 10px;
             font-style: italic;
+            a {
+                list-style: none;
+                text-decoration: none;
+                color: white;
+                transition: 1s;
+                &:hover {
+                    color: $color-tres;
+                    font-size: nth($font-size, 6)
+                }
+            }
         }   
     }
 
@@ -301,10 +311,27 @@ main {
                     font-size: nth($font-size, 6);
                     color: $color-tres;
                 }
+                h5 {
+                    text-decoration: none;
+                    display: flex;
+                    justify-content: left;
+                    font-size: nth($font-size, 5);
+                    color: $color-tres;
+                    padding: 15px;
+                    font-style: oblique;
+                }
                 ul {
                     li {
                         list-style: circle;
                         font-size: nth($font-size, 3);
+                        a {
+                            color: white;
+                            transition: 1s;
+                            &:hover {
+                                color: $color-tres;
+                                font-size: nth($font-size, 5);
+                            }
+                        }
                     }
                 }
                 .blog__recetas__ingredientes__destacados {
@@ -319,12 +346,12 @@ main {
                         justify-content: space-around;
                         a {
                             img {
+                                width: 156px;
+                                height: 172px;
+                                border: $color-secundario solid 2px;
                                 &:hover {
                                     border: $color-tres solid 2px;
                                 }
-                                border: $color-secundario solid 2px;
-                                width: 156px;
-                                height: 172px;
                             }
                         }
                     }
@@ -342,13 +369,22 @@ main {
                     justify-content: center;
                     font-size: nth($font-size, 6);
                     color: $color-tres;
+                    
                 }
                 ul {
                     li {
-                        font-size: nth($font-size, 3);
                         list-style: circle;
-                        margin-bottom: 5px;
-                        span {color: $color-tres;}
+                        font-size: nth($font-size, 3);
+                        padding: 5px;
+                        span { color: $color-tres;}
+                        a {
+                            color: white;
+                            transition: 1s;
+                            &:hover {
+                                color: $color-tres;
+                                font-size: nth($font-size, 5);
+                            }
+                        }
                     }
                 }
             }

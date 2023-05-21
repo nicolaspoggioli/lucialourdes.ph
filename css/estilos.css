@@ -166,6 +166,14 @@ main .titulo {
     font-size: 25px;
     margin-bottom: 10px;
     font-style: italic; }
+    main .titulo .titulo__sub a {
+      list-style: none;
+      text-decoration: none;
+      color: white;
+      transition: 1s; }
+      main .titulo .titulo__sub a:hover {
+        color: #0e674d;
+        font-size: 27px; }
 
 main .mistrabajos {
   margin-bottom: 10px; }
@@ -324,9 +332,23 @@ p a:hover {
         justify-content: center;
         font-size: 27px;
         color: #0e674d; }
+      .blog .blog__recetas .blog__recetas__ingredientes h5 {
+        text-decoration: none;
+        display: flex;
+        justify-content: left;
+        font-size: 25px;
+        color: #0e674d;
+        padding: 15px;
+        font-style: oblique; }
       .blog .blog__recetas .blog__recetas__ingredientes ul li {
         list-style: circle;
         font-size: 20px; }
+        .blog .blog__recetas .blog__recetas__ingredientes ul li a {
+          color: white;
+          transition: 1s; }
+          .blog .blog__recetas .blog__recetas__ingredientes ul li a:hover {
+            color: #0e674d;
+            font-size: 25px; }
       .blog .blog__recetas .blog__recetas__ingredientes .blog__recetas__ingredientes__destacados {
         margin-top: 18px; }
         .blog .blog__recetas .blog__recetas__ingredientes .blog__recetas__ingredientes__destacados h4 {
@@ -337,9 +359,9 @@ p a:hover {
           flex-direction: row;
           justify-content: space-around; }
           .blog .blog__recetas .blog__recetas__ingredientes .blog__recetas__ingredientes__destacados .blog__recetas__ingredientes__destacados__img a img {
-            border: #ecdce9 solid 2px;
             width: 156px;
-            height: 172px; }
+            height: 172px;
+            border: #ecdce9 solid 2px; }
             .blog .blog__recetas .blog__recetas__ingredientes .blog__recetas__ingredientes__destacados .blog__recetas__ingredientes__destacados__img a img:hover {
               border: #0e674d solid 2px; }
     .blog .blog__recetas .blog__recetas__preparacion {
@@ -353,11 +375,17 @@ p a:hover {
         font-size: 27px;
         color: #0e674d; }
       .blog .blog__recetas .blog__recetas__preparacion ul li {
-        font-size: 20px;
         list-style: circle;
-        margin-bottom: 5px; }
+        font-size: 20px;
+        padding: 5px; }
         .blog .blog__recetas .blog__recetas__preparacion ul li span {
           color: #0e674d; }
+        .blog .blog__recetas .blog__recetas__preparacion ul li a {
+          color: white;
+          transition: 1s; }
+          .blog .blog__recetas .blog__recetas__preparacion ul li a:hover {
+            color: #0e674d;
+            font-size: 25px; }
 
 .contacto {
   background-image: url(../img/minibrownies2.jpg);
