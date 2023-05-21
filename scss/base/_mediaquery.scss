@@ -141,10 +141,10 @@
         .flyers {
             div {
                 img {
-                    width: 350px;
-                    height: 400px;
+                    width: 80%;
+                    height: 320px;
                     border: black 2px solid;
-                    margin: 6px;
+                    margin: 3px;
                 }
             }
         }
@@ -207,3 +207,20 @@
         }  
     }
 }
+
+
+
+
+@media screen and (max-width: 300px){
+    .flyers {
+        div {
+            img {
+                width: 220px;
+                height: 270px;
+                border: black 1px solid;
+                margin: 1px;
+            }
+        }
+    }
+}
+

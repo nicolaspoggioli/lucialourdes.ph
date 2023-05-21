@@ -262,34 +262,54 @@ p {
     color: black;
     margin: 35px; }
 
-.blog .blog__recetas {
-  display: flex;
-  flex-wrap: wrap; }
-  .blog .blog__recetas div {
-    width: 447px;
-    height: 1000px;
+.blog {
+  padding-bottom: 10px; }
+  .blog .blog__recetas {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
-    .blog .blog__recetas div h3 {
-      text-shadow: 1px 2px white;
-      background-color: #ecdce9; }
-    .blog .blog__recetas div img {
-      width: 350px;
-      height: 300px; }
-    .blog .blog__recetas div h4 {
-      font-size: 25px;
-      margin: 2px;
-      margin-top: 5px;
-      color: white;
-      text-shadow: 1px 2px black; }
-    .blog .blog__recetas div p {
-      margin: 10px; }
-    .blog .blog__recetas div iframe {
-      width: 250px;
-      height: 200px;
-      margin: 1px; }
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 5px;
+    border: 3px solid #ecdce9; }
+    .blog .blog__recetas .blog__recetas__foto {
+      display: flex;
+      position: relative; }
+      .blog .blog__recetas .blog__recetas__foto h3 {
+        position: absolute;
+        font-size: 38px;
+        font-style: oblique;
+        text-align: center;
+        width: 350px;
+        margin-top: 0;
+        padding-top: 0%; }
+      .blog .blog__recetas .blog__recetas__foto img {
+        height: 450px;
+        width: 350px;
+        margin: 5px;
+        box-shadow: 1px 2px 3px black; }
+    .blog .blog__recetas .blog__recetas__ingredientes {
+      display: flex;
+      flex-direction: column; }
+      .blog .blog__recetas .blog__recetas__ingredientes h4 {
+        text-decoration: underline;
+        display: flex;
+        justify-content: center;
+        font-size: 27px;
+        color: #0e674d; }
+      .blog .blog__recetas .blog__recetas__ingredientes ul li {
+        list-style: circle;
+        font-size: 23px; }
+    .blog .blog__recetas .blog__recetas__preparacion {
+      display: flex;
+      flex-direction: column; }
+      .blog .blog__recetas .blog__recetas__preparacion h4 {
+        text-decoration: underline;
+        display: flex;
+        justify-content: center;
+        font-size: 27px;
+        color: #0e674d; }
+      .blog .blog__recetas .blog__recetas__preparacion ul li {
+        font-size: 20px;
+        list-style: circle; }
 
 .contacto {
   background-image: url(../img/minibrownies2.jpg);
@@ -420,10 +440,10 @@ p {
     main .mistrabajos .mistrabajos__dives .mistrabajos__dives__c6 {
       grid-column: span 1; }
   main .flyers div img {
-    width: 350px;
-    height: 400px;
+    width: 80%;
+    height: 320px;
     border: black 2px solid;
-    margin: 6px; }
+    margin: 3px; }
   .footer .footer__logo a img {
     margin-left: 15px;
     height: 60px;
@@ -454,3 +474,10 @@ p {
     .servicios ul li p {
       font-size: 20px;
       margin: 5px; } }
+
+@media screen and (max-width: 300px) {
+  .flyers div img {
+    width: 220px;
+    height: 270px;
+    border: black 1px solid;
+    margin: 1px; } }
