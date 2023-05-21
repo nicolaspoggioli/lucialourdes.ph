@@ -1,9 +1,39 @@
 
 @media screen and (max-width: 955px) {
     main {
+        .titulo {
+            h1 {
+                font-size: nth($font-size, 7);
+            }
+            .titulo__sub {
+                font-size: nth($font-size, 3)
+            }
+        }
+        .hero {
+            h1 {
+                font-size: nth($font-size, 7);
+            }
+            p {
+                font-size: nth($font-size, 3)
+
+            }
+        }
         .blog {
             .blog__recetas {
                 flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                .blog__recetas__foto {
+                    width: 440px;
+
+
+                }
+                .blog__recetas__preparacion{
+                    width: 85%;
+                }
+                .blog__recetas__ingredientes {
+                    width: 85%;
+                }
             }
         }
         .principal {
@@ -95,9 +125,81 @@
 
 @media screen and (max-width: 450px) {
     main {
+        .titulo{
+            h1 {
+                font-size: nth($font-size, 6);
+            }
+            .titulo__sub {
+                font-size: nth($font-size, 2);
+            }
+        .hero {
+            padding: 5px;
+            h1 {
+                font-size: nth($font-size, 5);
+            }
+            p { 
+                justify-content: center;
+                font-size: nth($font-size, 2);
+            }
+        }
+
+        }
+        .acercade{
+            .acercade__divp{
+                p {
+                    font-size: nth($font-size, 2);
+                    margin: 25px;
+                }
+            }
+            .acercade__divi
+            {
+                img {
+                    height: 300px;
+                    width: 250px;
+                }
+            }
+        }
+            
+        .blog {
+            .blog__recetas{
+                .blog__recetas__foto {
+                    width: 200px;
+                    height: 250px;
+                    margin-bottom: 10px;
+                    img {
+                        width: 200px;
+                        height: 250px;
+                    }
+
+                }
+                .blog__recetas__ingredientes{
+                    h4 {font-size: nth($font-size,3)
+
+                    }
+                    ul{
+                        li {
+                            font-size: nth($font-size,2);
+                        }
+                    }
+                }
+                .blog__recetas__preparacion {
+                    h4 {font-size: nth($font-size,3)
+
+                    }
+                    ul{
+                        li {
+                            font-size: nth($font-size,2);
+                        }
+                    }
+                }
+                
+            }
+        }
         .principal {
             .principal__dives {
                 grid-template-columns: 1fr;
+                padding: 15px;
+
                 .principal__dives__potencia {
                     grid-row: 1;
                     p {
@@ -110,15 +212,7 @@
                 }
             }
         }
-        .hero {
-            h1 {
-                font-size: nth($font-size, 5);
-            }
-            p { 
-                justify-content: center;
-                font-size: nth($font-size, 3);
-            }
-        }
+
 
 
         .servicios {

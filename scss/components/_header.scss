@@ -14,7 +14,11 @@ header {
                         margin: 0px 7px 0px 7px;
                     
                         a {
-                            &:hover {color: $color-tres;
+                            transition: 0.7s;
+                            &:hover {
+                                color: $color-tres;
+                                font-size: nth($font-size, 6);
+                                font-weight: 600;
                             }
         
                         }
