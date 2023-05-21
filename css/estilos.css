@@ -370,11 +370,9 @@ p {
       color: black;
       font-size: 15px; }
 
-@media screen and (max-width: 1067px) {
-  main .blog .blog__recetas {
-    justify-content: space-around; } }
-
 @media screen and (max-width: 955px) {
+  main .blog .blog__recetas {
+    flex-direction: column; }
   main .principal .principal__dives {
     grid-template-columns: repeat(2, 1fr); }
   main .mistrabajos .mistrabajos__dives {
