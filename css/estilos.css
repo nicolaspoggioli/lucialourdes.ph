@@ -184,7 +184,7 @@ main .mistrabajos {
     gap: 10px; }
     main .mistrabajos .mistrabajos__dives div {
       position: relative;
-      border: black 2px;
+      border: black 3px;
       border-style: ridge;
       margin-bottom: 5px; }
       main .mistrabajos .mistrabajos__dives div h3 {
@@ -202,7 +202,7 @@ main .mistrabajos {
           box-shadow: 2px 5px 5px 4px rgba(0, 0, 0, 0.75);
           -webkit-box-shadow: 2px 5px 5px 4px rgba(0, 0, 0, 0.75);
           -moz-box-shadow: 2px 5px 5px 4px rgba(0, 0, 0, 0.75);
-          transform: scale(1.5, 1.5); }
+          transform: scale(1.05, 1.05); }
     main .mistrabajos .mistrabajos__dives .mistrabajos__dives__c3 {
       grid-row: span 2; }
     main .mistrabajos .mistrabajos__dives .mistrabajos__dives__c6 {
