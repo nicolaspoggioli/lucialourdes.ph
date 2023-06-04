@@ -241,6 +241,19 @@
         }
     }
 
+    .contacto {
+        .contacto__form {
+            width: 400px;
+            input {
+                height: 6%;
+            }
+            h2 {
+                font-size: nth($font-size, 5);
+
+            }
+        }
+    }
+
     .footer {
         .footer__logo {
             a {

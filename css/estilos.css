@@ -393,28 +393,37 @@ p a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-position-y: center;
-  height: 500px; }
-  .contacto .contacto__div {
-    font-size: 23px;
-    color: white;
+  height: 500px;
+  display: flex;
+  justify-content: center; }
+  .contacto .contacto__form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%; }
-    .contacto .contacto__div div {
-      width: 50%; }
-    .contacto .contacto__div .botones {
+    width: 600px; }
+    .contacto .contacto__form input {
+      background-color: rgba(255, 255, 255, 0.63);
+      margin: 1px;
+      border: 1px solid #ecdce9;
+      height: 8%; }
+      .contacto .contacto__form input:hover {
+        background-color: white; }
+      .contacto .contacto__form input:active {
+        border-color: #0e674d !important; }
+    .contacto .contacto__form textarea {
+      margin: 2px 0px 2px 0px;
+      height: 32%;
+      background-color: rgba(255, 255, 255, 0.63); }
+      .contacto .contacto__form textarea:hover {
+        background-color: white; }
+    .contacto .contacto__form .contacto__form__botones {
       display: flex;
-      justify-content: space-between;
-      margin-bottom: 5px; }
-      .contacto .contacto__div .botones .btn {
-        background-color: #ecdce9;
+      justify-content: space-around; }
+      .contacto .contacto__form .contacto__form__botones .btn {
+        background-color: rgba(255, 255, 255, 0.63);
         border: 2px solid black;
         border-radius: 5px;
-        padding: 3px 7px 3px 7px;
         font-size: 20px; }
-        .contacto .contacto__div .botones .btn:hover {
+        .contacto .contacto__form .contacto__form__botones .btn:hover {
           background-color: #0e674d; }
 
 .footer {
@@ -562,6 +571,12 @@ p a:hover {
     height: 320px;
     border: black 2px solid;
     margin: 3px; }
+  .contacto .contacto__form {
+    width: 400px; }
+    .contacto .contacto__form input {
+      height: 6%; }
+    .contacto .contacto__form h2 {
+      font-size: 25px; }
   .footer .footer__logo a img {
     margin-left: 15px;
     height: 60px;

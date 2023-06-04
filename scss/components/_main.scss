@@ -398,32 +398,44 @@ main {
         background-repeat: no-repeat;
         background-position-y: center;
         height: 500px;
-        .contacto__div {
-            font-size: nth($font-size, 4);
-            color: white;
+        display: flex;
+        justify-content: center;
+        .contacto__form {
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            div { 
-                width: 50%;
-
+            width: 600px;
+            input {
+                background-color: rgba(255, 255, 255, 0.63);
+                margin: 1px;
+                border: 1px solid $color-secundario;
+                height: 8%;
+                &:hover {
+                    background-color: white;
+                }
+                &:active {
+                    border-color: $color-tres !important;
+                }
             }
-            .botones {
+            textarea {
+                margin: 2px 0px 2px 0px;
+                height: 32%;
+                background-color: rgba(255, 255, 255, 0.63);
+                &:hover {
+                    background-color: white;
+                }
+            }
+            .contacto__form__botones {
                 display: flex;
-                justify-content: space-between;
-                margin-bottom: 5px;
+                justify-content: space-around;
                 .btn {
-                    background-color: $color-secundario;
+                    background-color: rgba(255, 255, 255, 0.63);
                     border: 2px solid black;
                     border-radius: 5px;
-                    padding: 3px 7px 3px 7px;
                     font-size: nth($font-size, 3);
                     &:hover {
                         background-color: $color-tres;
                     }
-                }
+                }  
             }
         }
     }
