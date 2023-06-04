@@ -44,6 +44,9 @@ li a {
 main {
   background-color: #c1a7b3; }
 
+input:active {
+  border-color: #0e674d !important; }
+
 header {
   border: none;
   background-color: #c1a7b3;
@@ -407,8 +410,6 @@ p a:hover {
       height: 8%; }
       .contacto .contacto__form input:hover {
         background-color: white; }
-      .contacto .contacto__form input:active {
-        border-color: #0e674d !important; }
     .contacto .contacto__form textarea {
       margin: 2px 0px 2px 0px;
       height: 32%;

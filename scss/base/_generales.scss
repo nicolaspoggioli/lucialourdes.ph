@@ -53,3 +53,9 @@ li a {
 
 main {
     background-color: $color-principal;}
+
+input {
+    &:active {
+        border-color: $color-tres !important;
+    }
+}
