@@ -45,6 +45,7 @@ main {
   background-color: #c1a7b3; }
 
 input:active {
+  outline: none !important;
   border-color: #0e674d !important; }
 
 header {
